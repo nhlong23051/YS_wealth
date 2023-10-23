@@ -11,6 +11,7 @@ export default function Navbar() {
         display: "grid",
         justifyContent: 'center',
         zIndex: "100",
+        top: "0",
         position: 'fixed'
         // justifyContent:"space-between"
     })
