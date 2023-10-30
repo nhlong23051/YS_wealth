@@ -6,7 +6,7 @@ import Footer from '../component/Footer'
 
 export default function index() {
     return (
-        <div>
+        <div className='h-[4000px] w-full'>
             <Header />
             <Navbar />
             <Outlet />

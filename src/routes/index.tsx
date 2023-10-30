@@ -4,10 +4,10 @@ import { lazy } from "react";
 const routes = [
     {
         path: "",
-        element: lazy(() => import(".././Page/index")),
+        element: lazy(() => import("../Page/index")),
         nested: [
-            { path: "", element: lazy(() => import(".././Page/HomePage/index")) },
-            { path: "khao-sat", element: lazy(() => import(".././Page/KhaoSat/khao_sat")) },
+            { path: "", element: lazy(() => import("../Page/HomePage/index")) },
+            { path: "khao-sat", element: lazy(() => import("../Page/KhaoSat/khao_sat")) },
         ]
     }
 

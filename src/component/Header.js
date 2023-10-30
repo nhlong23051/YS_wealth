@@ -6,7 +6,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 export default function Header() {
     return (
-        <div className='flex justify-between bg-blue-950 h-20 w-full z-20'>
+        <div style={{backgroundColor:"#000e29"}} className='flex justify-between h-20 w-full z-20'>
             <div className='flex pl-24 items-center'>
                 <div className='text-white text-lg px-5 font-semibold'>DANH MỤC </div>
                 <div className='text-blue-500 px-10 font-bold rounded py-2 bg-white text-lg'>AN TOÀN</div>
