@@ -3,9 +3,9 @@ import Button from "@mui/material/Button";
 import EastIcon from "@mui/icons-material/East";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 
-export default function KhaoSat0({ setKhaoSatValue }) {
+export default function KhaoSat0({ setKhaoSatPoint }) {
   const handleStartClick = () => {
-    setKhaoSatValue(1);
+    setKhaoSatPoint(null);
   };
 
   return (

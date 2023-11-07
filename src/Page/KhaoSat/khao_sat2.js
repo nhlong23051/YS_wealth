@@ -11,6 +11,7 @@ export default function KhaoSat2({ setKhaoSatPoint }) {
 
   const handleOptionChange = (value) => {
     setSelectedOption(value);
+    setKhaoSatPoint(value);
   };
 
   return (
